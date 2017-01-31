@@ -1,4 +1,4 @@
-FROM yeplaa/armhf-alpine
+FROM alpine
 MAINTAINER Loic Fouray <loic@yeplaa.net>
 
 RUN apk add --no-cache nginx && adduser -D -u 1000 -g 'www' www
